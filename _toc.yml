@@ -1,0 +1,15 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: intro
+- file: 02_traditional_ml/traditional_methods
+  sections:
+    - file: 02_traditional_ml/node_level_tasks_and_features
+    - file: 02_traditional_ml/link_prediction_tasks_and_features
+    - file: 02_traditional_ml/graph_level_features_and_graph_kernels
+- file: 03_node_emb/node_emb
+  sections:
+    - file: 03_node_emb/node_embeddings
+    - file: 03_node_emb/node_embeddings_encoder_and_decoder
+    - file: 03_node_emb/random_walk_approaches_for_node_embeddings
+
