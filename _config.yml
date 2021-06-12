@@ -4,6 +4,7 @@
 title: "CS224W - Annotated"
 author: Runmin Zhang
 #logo: logo.png
+exclude_patterns: [.DS_Sotre, "**.ipynb_checkpoints", network]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
