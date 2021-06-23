@@ -24,4 +24,6 @@
     - file: 05_message/message_passing_and_node_classification
     - file: 05_message/relational_classification_and_iterative_classification
     - file: 05_message/collective_classification_belief_propagation
-
+- file: 06_GNN1/GNN1
+  sections:
+    - file: 06_GNN1/basics
