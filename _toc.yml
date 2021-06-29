@@ -2,6 +2,10 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
+- file: 01_introduction/intro_to_graph
+  sections:
+    - file: 01_introduction/types_and_applications
+    - file: 01_introduction/choice_of_graph_representation
 - file: 02_traditional_ml/traditional_methods
   sections:
     - file: 02_traditional_ml/node_level_tasks_and_features
