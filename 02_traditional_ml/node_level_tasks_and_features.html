@@ -551,11 +551,12 @@ node_degree[&#39;d&#39;] = 4
 <div class="section" id="closeness-centrality">
 <h4>Closeness Centrality<a class="headerlink" href="#closeness-centrality" title="Permalink to this headline">¶</a></h4>
 <p><img alt="14" src="../_images/02-tradition-ml_16.jpeg" /></p>
-<p><code class="docutils literal notranslate"><span class="pre">NetworkX</span></code> uses a normalized version of <code class="docutils literal notranslate"><span class="pre">closeness</span> <span class="pre">centrality</span></code>. For a node <span class="math notranslate nohighlight">\(u\)</span> with <span class="math notranslate nohighlight">\(n-1\)</span> reachable nodes, the closeness centrality is defined as
-$<span class="math notranslate nohighlight">\(
+<p><code class="docutils literal notranslate"><span class="pre">NetworkX</span></code> uses a normalized version of <code class="docutils literal notranslate"><span class="pre">closeness</span> <span class="pre">centrality</span></code>. For a node <span class="math notranslate nohighlight">\(u\)</span> with <span class="math notranslate nohighlight">\(n-1\)</span> reachable nodes, the closeness centrality is defined as</p>
+<div class="math notranslate nohighlight">
+\[
  C(u) = \frac{n-1}{\sum_{v=1}^{n-1}d(v,u)}
-\)</span><span class="math notranslate nohighlight">\(
-where \)</span>d(v,u)<span class="math notranslate nohighlight">\( is the shortest path between \)</span>v<span class="math notranslate nohighlight">\( and \)</span>u$.</p>
+\]</div>
+<p>where <span class="math notranslate nohighlight">\(d(v,u)\)</span> is the shortest path between <span class="math notranslate nohighlight">\(v\)</span> and <span class="math notranslate nohighlight">\(u\)</span>.</p>
 <p>For Node <code class="docutils literal notranslate"><span class="pre">a</span></code>, it has 4 reachable nodes, and the corresponding closeness centrality is</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
